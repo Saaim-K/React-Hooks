@@ -11,7 +11,7 @@ const StateTutorial = () => {
   return (
     <div>
       <input placeholder="enter something..." onChange={onChange} />
-      <input placeholder="enter something..." onChange={(e) => { setInputValue(e.target.value) }} />
+      {/* <input placeholder="enter something..." onChange={(e) => { setInputValue(e.target.value) }} /> */}
       {inputValue}
     </div>
   );
