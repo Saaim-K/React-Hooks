@@ -1,9 +1,12 @@
 import React from 'react'
-import StateTutorial from './UseState/StateTutorial'
+// import StateTutorial from './UseState/StateTutorial'
+import ReducerTutorial from './UseReducer/ReducerTutorial'
+
 const App = () => {
   return (
     <>
-      <StateTutorial />
+      {/* <StateTutorial /> */}
+      ReducerTutorial/>
     </>
   )
 }

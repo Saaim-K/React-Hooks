@@ -5,11 +5,7 @@ function ImperativeHandle() {
   const buttonRef = useRef(null);
   return (
     <div>
-      <button
-        onClick={() => {
-          buttonRef.current.alterToggle();
-        }}
-      >
+      <button onClick={() => { buttonRef.current.alterToggle(); }}>
         Button From Parent
       </button>
       <Button ref={buttonRef} />
