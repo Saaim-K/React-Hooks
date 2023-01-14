@@ -1,13 +1,16 @@
 import React from 'react'
 // import StateTutorial from './UseState/StateTutorial'
 // import ReducerTutorial from './UseReducer/ReducerTutorial'
-import EffectTutorial from './UseEffect/EffectTutorial'
+// import EffectTutorial from './UseEffect/EffectTutorial'
+import RefTutorial from './UseRef/RefTutorial'
+
 const App = () => {
   return (
     <>
       {/* <StateTutorial /> */}
       {/* <ReducerTutorial /> */}
-      <EffectTutorial />
+      {/* <EffectTutorial /> */}
+      <RefTutorial />
     </>
   )
 }
